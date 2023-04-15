@@ -15,7 +15,7 @@ export default function Movie() {
     return (
       <div key={item.id}>
         <div>
-          {item.title} ({item.year})
+          {item.title} [{item.year}]
         </div>
         <div>평점: {item.rating} / 10점</div>
         <img src={item.medium_cover_image} alt={item.title}></img>
